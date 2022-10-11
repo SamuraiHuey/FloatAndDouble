@@ -19,5 +19,10 @@ public class Main {
         System.out.println("MyIntValue= " + myIntValue);
         System.out.println("MyFloatValue= " + myFloatValue);
         System.out.println("MyDoubleValue= " + myDoubleValue);
+
+        double pi = 3.1415927d;
+        double anotherNumber = 3_000_000.4_567_890d;
+        System.out.println(pi);
+        System.out.println(anotherNumber);
     }
 }
